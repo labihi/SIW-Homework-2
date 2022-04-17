@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 4fr;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    display: flex;
+    grid-row: 1;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+}
+
+.hero-section{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: none;
+}
+
+a:hover{
+    color: #ff90e8;
+}
+
+.separator{
+    height: 100%;
+    border-radius: 100px;
+}
+
+.propic{
+    display: flex;
+}
+
+.propic>img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+.research>.title,.teachings>.title,.thesis>.title{
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+
+.research-activities>ul,.current-fundings>ul,.service>ul,.publications > ul,.current-year>ul,.thesis-research>ul,.thesis-industry>ul{
+    padding-left: 20px;
+}
+
+.research-activities,.current-fundings,.service,.publications,.current-year,.thesis-research,.thesis-industry{
+    padding-left: 10px;
+}
+
+li>ul{
+    padding-left: 10px;
+}
+
